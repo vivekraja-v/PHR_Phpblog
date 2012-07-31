@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ###
+  PHR_PhpBlog
+  %%
+  Copyright (C) 1999 - 2012 Photon Infotech Inc.
+  %%
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  ###
+  -->
+
+<PhpData>
+	
+	<searchmodule>
+		<Searchtopic>Drupal</Searchtopic>
+		<db-addtopic>nokia</db-addtopic>
+		<db-topicinfo>Nokia manufactures mobile electronic devices, mostly mobile telephones and other devices related to communications, and in converging Internet and communications industries</db-topicinfo>
+		<db-carttopic>laptop</db-carttopic>
+		<db-cartdesc>A laptop computer is a personal computer for mobile use. A laptop integrates most of the typical components of a desktop computer, including a display, a keyboard, a pointing device and speakers into a single unit.A laptop is powered by mains electricity via an AC adapter, and can be used away from an outlet using a rechargeable battery. Laptops are also sometimes called notebook computers or notebooks.</db-cartdesc>
+	</searchmodule>
+	
+	<dbupdatemodule>
+		<dbcartedittopic>Internet</dbcartedittopic>
+		<dbcarteditdesc>The Internet is a global system of interconnected computer networks that use the standard Internet protocol suite to serve billions of users worldwide.The Internet carries an extensive range of information resources and services, such as the inter-linked hypertext documents of the World Wide Web and the infrastructure to support email.</dbcarteditdesc>
+		<dbedittopicname>Sony Ericsson</dbedittopicname>
+		<dbedittopicinfo>Sony Ericssons colourful and innovative collection of mobile phones, you can definitely find one that will fit into your lifestyle, budget and shows off your character. We have also created a series of handy mobile phone accessories so you can spruce up your mobile phone appearance, prevent it from damage, or enhance its usage</dbedittopicinfo>
+	</dbupdatemodule>
+	
+	
+</PhpData>

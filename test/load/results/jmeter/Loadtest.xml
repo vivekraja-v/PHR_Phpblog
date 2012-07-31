@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="292" lt="287" ts="1343366738625" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="15823"/>
+<httpSample t="471" lt="471" ts="1343366738578" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="15823"/>
+<httpSample t="263" lt="262" ts="1343366738890" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="15823"/>
+<httpSample t="494" lt="494" ts="1343366738671" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="15823"/>
+<httpSample t="601" lt="601" ts="1343366738578" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15823"/>
+<httpSample t="617" lt="616" ts="1343366738578" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15823"/>
+<httpSample t="362" lt="362" ts="1343366738921" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-11" dt="text" by="15823"/>
+<httpSample t="576" lt="576" ts="1343366738781" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="15823"/>
+<httpSample t="202" lt="199" ts="1343366739203" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="15823"/>
+<httpSample t="664" lt="664" ts="1343366738828" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="15822"/>
+<httpSample t="417" lt="415" ts="1343366739140" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-15" dt="text" by="15823"/>
+<httpSample t="832" lt="827" ts="1343366738734" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="15823"/>
+<httpSample t="425" lt="424" ts="1343366739359" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="15823"/>
+<httpSample t="452" lt="451" ts="1343366739328" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-19" dt="text" by="15823"/>
+<httpSample t="622" lt="621" ts="1343366739171" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-16" dt="text" by="15823"/>
+<httpSample t="648" lt="645" ts="1343366739156" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="15823"/>
+<httpSample t="740" lt="737" ts="1343366739078" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-14" dt="text" by="15823"/>
+<httpSample t="1274" lt="1273" ts="1343366738578" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15823"/>
+<httpSample t="372" lt="370" ts="1343366739484" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="15823"/>
+<httpSample t="681" lt="680" ts="1343366739187" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="15823"/>
+<httpSample t="897" lt="897" ts="1343366738984" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-12" dt="text" by="15823"/>
+<httpSample t="322" lt="321" ts="1343366739562" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="15823"/>
+<httpSample t="667" lt="666" ts="1343366739296" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-18" dt="text" by="15823"/>
+<httpSample t="754" lt="754" ts="1343366739234" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-17" dt="text" by="15823"/>
+<httpSample t="434" lt="434" ts="1343366739562" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-15" dt="text" by="15823"/>
+<httpSample t="1032" lt="1032" ts="1343366739015" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="15823"/>
+<httpSample t="271" lt="270" ts="1343366739781" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-19" dt="text" by="15822"/>
+<httpSample t="1022" lt="1022" ts="1343366739046" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" by="15823"/>
+<httpSample t="933" lt="932" ts="1343366739171" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="15823"/>
+<httpSample t="826" lt="825" ts="1343366739281" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-11" dt="text" by="15823"/>
+<httpSample t="256" lt="255" ts="1343366739875" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-12" dt="text" by="15822"/>
+<httpSample t="179" lt="179" ts="1343366739984" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-17" dt="text" by="15822"/>
+<httpSample t="1118" lt="1118" ts="1343366739062" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="15823"/>
+<httpSample t="422" lt="421" ts="1343366739796" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-16" dt="text" by="15823"/>
+<httpSample t="390" lt="387" ts="1343366739859" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="15822"/>
+<httpSample t="200" lt="199" ts="1343366740062" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-13" dt="text" by="15822"/>
+<httpSample t="311" lt="309" ts="1343366739968" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-18" dt="text" by="15823"/>
+<httpSample t="474" lt="474" ts="1343366739812" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-14" dt="text" by="15823"/>
+<httpSample t="934" lt="934" ts="1343366739375" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-20" dt="text" by="15822"/>
+<httpSample t="78" lt="78" ts="1343366740312" s="true" lb="PHP_FrameWork" rc="200" rm="OK" tn="Thread Group 1-20" dt="text" by="15822"/>
+
+</testResults>
