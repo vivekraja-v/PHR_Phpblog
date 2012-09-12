@@ -5,6 +5,9 @@
     <artifactId>PHR_Phpblog</artifactId>
     <name>PHR_Phpblog</name>
     <version>1.0.0</version>
+    <scm>
+        <connection>https://github.com/vivekraja-v/PHR_Phpblog.git</connection>
+    </scm>
     <build>
         <sourceDirectory>source</sourceDirectory>
         <resources>
