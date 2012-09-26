@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ###
+  Archetype - phresco-php-archetype
+  
+  Copyright (C) 1999 - 2012 Photon Infotech Inc.
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  ###
+  -->
+ 
+<archetype-descriptor name="php"> 
+	<fileSets> 
+		<fileSet filtered="false" packaged="false"> 
+			<directory>.phresco</directory> 
+			<includes> 
+				<include>archetype-metadata.xml</include> 
+				<include>excludefiles.txt</include> 
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false" packaged="false"> 
+			<directory>docs</directory> 
+			<includes> 
+				<include>README.txt</include> 
+				<include>PHTN_Reference_Guide.doc</include> 
+				<include>PHTN_Release_Notes.doc</include> 
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false" packaged="false"> 
+			<directory>source/public_html</directory> 
+			<includes> 
+				<include>index.php</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false" packaged="false"> 
+			<directory>source</directory> 
+			<includes> 
+				<include>index.php</include> 
+				<include>config.php</include> 
+				<include>path.php</include> 
+				<include>db2.php</include> 
+				<include>mysql.php</include> 
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false" packaged="false"> 
+			<directory>source/config</directory> 
+			<includes> 
+				<include>phresco-env-config.xml</include> 
+				<include>config.php</include> 
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false" packaged="false"> 
+			<directory>source/sql/mysql/5.5.1</directory> 
+			<includes> 
+				<include>site.sql</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false" packaged="false"> 
+			<directory>source/public_html/css</directory> 
+			<includes> 
+				<include>**/*</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false" packaged="false"> 
+			<directory>source/public_html/images</directory> 
+			<includes> 
+				<include>**/*</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false" packaged="false"> 
+			<directory>source/public_html/js</directory> 
+			<includes> 
+				<include>**/*</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>source/resources/library</directory> 
+			<includes> 
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>source/resources/templates</directory> 
+			<includes> 
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+		
+		<fileSet filtered="false"> 
+			<directory>test/functional</directory> 
+			<includes> 
+				<include>pom.xml</include>
+				<include>precondition.ini</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/functional/src/main/php/phresco/tests</directory> 
+			<includes> 
+				<include>basescreen.php</include>
+			</includes>
+		</fileSet>
+        <fileSet filtered="false"> 
+			<directory>test/functional/src/main/php/phresco/tests/phpwebdriver</directory> 
+			<includes> 
+				<include>Keys.php</include>
+				<include>LocatorStrategy.php</include>
+				<include>NoSuchElementException.php</include>
+				<include>RequiredFunction.php</include>
+				<include>WebDriver.php</include>
+				<include>WebDriverBase.php</include>
+				<include>WebDriverException.php</include>
+				<include>WebDriverResponseStatus.php</include>
+				<include>WebElement.php</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/functional/src/site/doxygen</directory> 
+			<includes> 
+				<include>doxygen.config</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/functional/src/site/phpdoc</directory> 
+			<includes> 
+				<include>phpdoc.config</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/functional/src/test/php/phresco</directory> 
+			<includes> 
+				<include>AllTest.php</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/functional/src/test/php/phresco/tests</directory> 
+			<includes> 
+				<include>phresco-env-config.xml</include>
+				<include>PhpCommonFun.php</include>
+				<include>UserModules.php</include>
+				<include>Dashboard_Cat.php</include>
+                <include>PhpData.xml</include>
+                <include>UserInfo.xml</include>
+                
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/functional/testcases</directory> 
+			<includes> 
+				<include>PHTN_Phresco_PHP_TestCases_ExecutionReport.xls</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/load</directory> 
+			<includes> 
+				<include>build.properties</include>
+				<include>build.xml</include>
+				<include>pom.xml</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/load/tests</directory> 
+			<includes> 
+				<include>phresco-env-config.csv</include>
+				<include>PhrescoFrameWork_TestPlan.jmx</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/performance/server</directory> 
+			<includes> 
+				<include>build.properties</include>
+				<include>build.xml</include>
+				<include>pom.xml</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/performance/server/tests</directory> 
+			<includes> 
+				<include>phresco-env-config.csv</include>
+				<include>PhrescoFrameWork_TestPlan.jmx</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/performance/database</directory> 
+			<includes> 
+				<include>build.properties</include>
+				<include>build.xml</include>
+				<include>pom.xml</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/performance/database/tests</directory> 
+			<includes> 
+				<include>PhrescoFrameWork_TestPlan.jmx</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/performance/webservices</directory> 
+			<includes> 
+				<include>build.properties</include>
+				<include>build.xml</include>
+				<include>pom.xml</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/performance/webservices/tests</directory> 
+			<includes> 
+				<include>phresco-env-config.csv</include>
+				<include>PhrescoFrameWork_TestPlan.jmx</include>				
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/unit</directory> 
+			<includes> 
+				<include>pom.xml</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/unit/src/main/php/phresco/tests</directory> 
+			<includes> 
+				<include>basescreen.php</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/unit/src/site/doxygen</directory> 
+			<includes> 
+				<include>doxygen.config</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/unit/src/site/phpdoc</directory> 
+			<includes> 
+				<include>phpdoc.config</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/unit/src/test/php/phresco</directory> 
+			<includes> 
+				<include>AllTest.php</include>
+			</includes> 
+		</fileSet>
+		<fileSet filtered="false"> 
+			<directory>test/unit/src/test/php/phresco/tests</directory> 
+			<includes> 
+				<include>Home.php</include>
+			</includes> 
+		</fileSet>
+	</fileSets> 
+</archetype-descriptor> 
